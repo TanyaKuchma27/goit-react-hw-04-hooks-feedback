@@ -1,14 +1,14 @@
-import s from './Statistics.module.css';
+import {Section, Text} from './Statistics.styled';
 import propTypes from 'prop-types';
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => (
-    <div className={s.section}>  
-        <p  className={s.text}>Good: {good}</p>
-        <p className={s.text}>Neutral: {neutral}</p>
-        <p className={s.text}>Bad: {bad}</p>
-        <p className={s.text}>Total: {total}</p>
-        <p className={s.text}>Positive feedback: {positivePercentage}%</p>
-    </div>
+    <Section>  
+        <Text>Good: {good}</Text>
+        <Text>Neutral: {neutral}</Text>
+        <Text>Bad: {bad}</Text>
+        <Text>Total: {total}</Text>
+        <Text>Positive feedback: {positivePercentage}%</Text>
+    </Section>
 );
     
 Statistics.propTypes = {

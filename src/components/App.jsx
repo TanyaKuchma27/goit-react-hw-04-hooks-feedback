@@ -4,7 +4,7 @@ import FeedbackOptions from './FeedbackOptions';
 import Section from './Section/Section';
 import Notification from './Notification';
 
-class App extends Component {
+export class App extends Component {
   state = {
     good: 0,
     neutral: 0,
@@ -58,5 +58,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;
