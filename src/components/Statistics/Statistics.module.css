@@ -1,0 +1,16 @@
+.section {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: flex-start;
+  padding-left: 10px;
+  background-color: rgb(218, 194, 216);
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.text {
+  margin: 5px;
+  font-size: 20px;
+}
